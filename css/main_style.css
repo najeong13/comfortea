@@ -491,13 +491,14 @@ body {
 .simple{
     position: relative;
 }
-.detail{
+.detail1, .detail2, .detail3{
     width: 540px;
     padding: 0 30px 30px 30px;
     position: absolute;
     top: 197px;
     left: 0;
     background-color: #eee;
+    border-radius: 10px;
 }
 
 /*  */

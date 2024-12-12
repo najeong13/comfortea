@@ -462,8 +462,6 @@ body {
 #section6{
     width: 1320px;
     margin: 100px auto;
-    display: flex;
-    flex-direction: column;
 }
 .s6_title_wrap{
     height: 60px;
@@ -483,6 +481,10 @@ body {
 }
 .s6_text_wrap{
     text-align: center;
+}
+
+.s6_review_cover{
+    width: 100%;
 }
 .s6_review_wrap{
     width: 600px;

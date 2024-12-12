@@ -485,10 +485,10 @@ body {
 
 .s6_review_cover{
     width: 100%;
+    margin-bottom: 150px;
 }
 .s6_review_wrap{
     width: 600px;
-    height: 257px;
     margin: 40px 0;
     background-color: #eee; 
     border-radius: 10px;
@@ -531,7 +531,7 @@ body {
     width: 540px;
     padding: 0 30px 30px 30px;
     position: absolute;
-    top: 196px;
+    top: 197px;
     left: 0;
     background-color: #eee;
     border-radius: 10px;

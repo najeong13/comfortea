@@ -74,11 +74,10 @@ body {
 }
 
 #wrap {
-    min-width: 1320px;
+    min-width: 1380px;
 }
 
-/*  */
-/* swiper 사이트 참조 */
+/* visual */
 
 #visual {
     overflow: hidden;
@@ -520,9 +519,9 @@ body {
     line-height: 1.5em;
 }
 #section6 .right-pose{
-    margin-left: 630px;
+    margin-left: 720px;
 }
-/*  */
+
 .simple{
     position: relative;
 }
@@ -536,7 +535,8 @@ body {
     border-radius: 10px;
 }
 
-/*  */
+/* F */
+
 #footer{
     height: 340px;
     background-color: #99AE7F;

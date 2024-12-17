@@ -1,5 +1,6 @@
 /* header */
 #header{
+    width: 1920px;
     height: 130px;
     z-index: 9;
     position: fixed;

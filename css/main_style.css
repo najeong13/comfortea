@@ -439,7 +439,7 @@ body {
 }
 .text-tea-room{
     position: absolute;
-    top: 15%;
+    top: 30%;
     left: 10%;
     font-size: 30px;
     line-height: 1.5em;
@@ -517,8 +517,8 @@ body {
     margin: 20px 0;
 }
 .review-ex{
-    font-size: 20px;
-    line-height: 1.5em;
+    font-size: 17px;
+    line-height: 1.7em;
 }
 #section6 .right-pose{
     margin-left: 720px;
@@ -531,7 +531,7 @@ body {
     width: 540px;
     padding: 0 30px 30px 30px;
     position: absolute;
-    top: 197px;
+    top: 196px;
     left: 0;
     background-color: #eee;
     border-radius: 10px;

@@ -76,11 +76,8 @@ body {
 #wrap {
     min-width: 1380px;
 }
-#section1{
-    overflow: hidden;
-}
+
 .inner_section1{
-    width: 1920px;
     margin: 0 auto;
     height: 800px;
     background-image: url(../images/tearoom/tearoom_section1.jpg)

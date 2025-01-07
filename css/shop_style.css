@@ -1,0 +1,293 @@
+@import url('//fastly.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+small,
+strong,
+b,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+summary,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 15px;
+    line-height: 1.5em;
+    color: #000;
+}
+
+.batang {
+    font-family: 'Iropke Batang';
+}
+
+#wrap {
+    min-width: 1380px;
+}
+
+.inner_section1{
+    margin: 0 auto;
+    height: 700px;
+    background-image: url(../images/shop/shop_section1.jpg)
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inner_section1 > p{
+    text-align: center;
+    padding: 203px 0px 150px 0px;
+}
+.fs-50{
+    font-size: 50px;
+}
+.section-btn{
+    display: flex;
+    justify-content: center;
+}
+.section-btn li{
+    border-radius: 5px;
+    background-color: #E0E4D7;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 20px;
+}
+.section-btn li a{
+    display: block;
+    width: 140px;
+    height: 50px;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+/* S2 */
+
+#section2{
+    margin: 100px auto;
+    height: 700px;
+}
+#section2> p{
+    text-align: center;
+    padding: 50px 0;
+}
+#section2 .swiper {
+    width: 1320px;
+    height: 600px;
+  }
+
+#section2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.8);
+    transition: all 0.5s;
+  }
+
+#section2 .screen img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 400px 400px 0 0;
+  }
+#section2 .swiper-slide-active{
+    transform: scale(1.2);
+  }
+
+#section2 .swiper-slide-next{
+    transform: scale(1.0);
+}
+#section2 .swiper-slide-prev{
+    transform: scale(1.0);
+}
+#section2 .screen {
+	position: relative;
+	overflow: hidden;
+}
+.prd_price{
+    font-size: 20px;
+}
+#section2 .swiper-slide-next .prd_text_ex,#section2 .swiper-slide-prev .prd_text-ex{
+    display: none;
+}
+#section2 .swiper-slide-active .prd_text-ex{
+    display: block;
+}
+.prd_name{
+    font-size: 23px;
+    font-weight: 500;
+    margin: 18px 0 9px 0; 
+}
+.prd_name span{
+    font-size: 20px;
+}
+.text_act{
+    display: block;
+}
+
+.best_img_wrap img{
+    transition: all 0.3s;
+}
+.screen:hover .best_img_wrap img{
+    opacity: 0;
+}
+.best1{
+    background: url(../images/shop/prd8-hover.jpg) no-repeat center;
+}
+.best2{
+    background: url(../images/shop/prd6-hover.jpg) no-repeat center;
+}
+.best3{
+    background: url(../images/shop/best3-hover.jpg) no-repeat center;
+}
+.best4{
+    background: url(../images/shop/prd3-hover.jpg) no-repeat center;
+}
+.best5{
+    background: url(../images/shop/best5-hover.jpg) no-repeat center;
+}
+
+/* S3 */
+
+#section3{
+    width: 1320px;
+    margin: 0 auto;
+}
+#section3> p{
+    text-align: center;
+    padding: 50px 0;
+}
+.package{
+    margin: 50px 0;
+}
+.flex-cent{
+    display: flex;
+    justify-content: center;
+}
+.package p{
+    margin: 10px 0;
+}
+.fs-23{font-size: 23px;}
+
+.package span{
+    font-size: 20px;
+}
+.package li{
+    width: 300px;
+    height: 540px;
+}
+.package li:nth-child(2){
+    margin: 0 130px;
+}
+.package li img{
+    display: block;
+}
+.line{
+    border-bottom: 1px solid #aaa;
+}
+.prd_info{
+    font-size: 15px;
+    color: #aaa;
+}
+.prd_img_wrap, .prd_img_wrap_xh{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-base{
+    display: flex;
+    justify-content: baseline;
+}
+.package li:hover .prd_img_wrap img{
+    opacity: 0;
+}
+.prd_img_wrap img{
+    transition: all 0.3s;
+}
+.prd1{
+    background: url(../images/shop/prd1-hover.jpg) no-repeat center;
+}
+.prd2{
+    background: url(../images/shop/prd2-hover.jpg) no-repeat center;
+}
+.prd3{
+    background: url(../images/shop/prd3-hover.jpg) no-repeat center;
+}
+.prd4{
+    background: url(../images/shop/prd4-hover.jpg) no-repeat center;
+}
+.prd5{
+    background: url(../images/shop/prd5-hover.jpg) no-repeat center;
+}
+.prd6{
+    background: url(../images/shop/prd6-hover.jpg) no-repeat center;
+}
+.prd7{
+    background: url(../images/shop/prd7-hover.jpg) no-repeat center;
+}
+.prd8{
+    background: url(../images/shop/prd8-hover.jpg) no-repeat center;
+}
+.prd1, .prd2, .prd4, .prd5, .prd6, .prd7, .prd8{
+    transition: all 0.2s;
+}

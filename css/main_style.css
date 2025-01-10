@@ -1,6 +1,6 @@
 @charset 'utf-8';
 /* webfont */
-@import url('//fastly.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+@import url('https://fastly.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
 
 @font-face {
     font-family: 'S-CoreDream-3Light';

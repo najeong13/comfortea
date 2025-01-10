@@ -1,4 +1,4 @@
-@import url('//fastly.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+@import url('https://fastly.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
 
 @font-face {
     font-family: 'S-CoreDream-3Light';
@@ -105,13 +105,13 @@ body {
     border-radius: 5px;
     background-color: #E0E4D7;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     margin: 0px 20px;
 }
 .section-btn li a{
     display: block;
-    width: 140px;
+    width: 180px;
     height: 50px;
     padding: 10px 0;
     box-sizing: border-box;
